@@ -210,11 +210,11 @@ endfunction
   call s:hi('DiffChange',                         s:base03, s:base01, '',          '')
   call s:hi('DiffDelete',                         s:red,    s:base01, '',          '')
   call s:hi('DiffText',                           s:blue,   s:base01, '',          '')
-  call s:hi('DiffAdded',                          s:base07, s:green,  s:bold,      '')
+  call s:hi('DiffAdded',                          s:green,  s:base01,  s:bold,     '')
   call s:hi('DiffFile',                           s:red,    s:base00, '',          '')
   call s:hi('DiffNewFile',                        s:green,  s:base00, '',          '')
   call s:hi('DiffLine',                           s:blue,   s:base00, '',          '')
-  call s:hi('DiffRemoved',                        s:base07, s:red,    s:bold,      '')
+  call s:hi('DiffRemoved',                        s:red,    s:base01, s:bold,      '')
 
   call s:hi('gitCommitOverflow',                  s:red,    '',       '',          '')
   call s:hi('gitCommitSummary',                   s:green,  '',       '',          '')
